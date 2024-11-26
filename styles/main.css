@@ -55,12 +55,9 @@ nav {
 
 .hero {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30vh; /* the viewport height */
-  margin: 0 auto;
   flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center content vertically */
-  align-items: center; /* Center content horizontally */
-  text-align: center; /* Center text horizontally */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+  text-align: center; /* Center the text inside */
 }/*# sourceMappingURL=main.css.map */
