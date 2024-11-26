@@ -59,18 +59,8 @@ nav {
   align-items: center;
   height: 30vh; /* the viewport height */
   margin: 0 auto;
-}
-
-.hero {
-  display: flex;
   flex-direction: column; /* Stack items vertically */
   justify-content: center; /* Center content vertically */
   align-items: center; /* Center content horizontally */
-  height: 100vh; /* Full viewport height */
-  background-color: #f0f0f0; /* Optional background color */
   text-align: center; /* Center text horizontally */
-}
-
-.hero h1, .hero p {
-  margin: 10px 0; /* Optional: Add spacing between the heading and paragraph */
 }/*# sourceMappingURL=main.css.map */
