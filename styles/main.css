@@ -61,16 +61,12 @@ nav {
   margin: 0 auto;
 }
 
+/* Sidebar on the right */
 .sidebar {
-  display: flex;
-  flex-direction: column; /* Arrange sidebar items vertically */
-  justify-content: flex-start; /* Align items to the start of the sidebar */
-  align-items: flex-start; /* Align items to the left of the sidebar */
-  background-color: white; /* White background */
+  display: flex; /* Enable Flexbox for the sidebar */
+  flex-direction: column; /* Stack sidebar items vertically */
+  background-color: white; /* Set the sidebar background to white */
   width: 250px; /* Set the width of the sidebar */
-  height: 100vh; /* Full viewport height */
-  padding: 20px; /* padding inside the sidebar */
-  position: fixed; /* Make the sidebar fixed to the right side */
-  top: 0; /* Align the sidebar to the top of the viewport */
-  right: 0;
+  height: 100%; /* Full height of the container */
+  padding: 20px; /* Optional padding inside the sidebar */
 }/*# sourceMappingURL=main.css.map */
